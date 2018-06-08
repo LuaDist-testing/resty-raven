@@ -1,8 +1,16 @@
+-- This file was automatically generated for the LuaDist project.
+
 package = "resty-raven"
  version = "1.0-2"
- source = {
-    url = "git://github.com/UseFedora/raven-lua",
- }
+-- LuaDist source
+source = {
+  tag = "1.0-2",
+  url = "git://github.com/LuaDist-testing/resty-raven.git"
+}
+-- Original source
+--  source = {
+--     url = "git://github.com/UseFedora/raven-lua",
+--  }
  description = {
     summary = "Lua (openresty) client for Sentry.",
     detailed = [[
